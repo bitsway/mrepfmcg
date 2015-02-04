@@ -190,7 +190,7 @@ function check_user() {
 		localStorage.photo_url='';
 		localStorage.photo_submit_url='';
 		
-		//alert(apipath_base_photo_dm);
+		alert(apipath_base_photo_dm);
 		
 		//----
 		$.ajax({
@@ -233,7 +233,7 @@ function check_user() {
 							localStorage.user_pass=user_pass;   		
 							localStorage.synced='NO'
 							
-							//alert(localStorage.base_url+'check_user?cid='+localStorage.cid+'&rep_id='+localStorage.user_id+'&rep_pass='+localStorage.user_pass+'&synccode='+localStorage.synccode);
+							alert(localStorage.base_url+'check_user?cid='+localStorage.cid+'&rep_id='+localStorage.user_id+'&rep_pass='+localStorage.user_pass+'&synccode='+localStorage.synccode);
 							
 							$.ajax({
 									 type: 'POST',
